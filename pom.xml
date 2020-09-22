@@ -6,6 +6,9 @@
   <artifactId>docker-jenkins-intg</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  <build>
+   <finalName>docker-jenkins-intg</finalName>
+  </build>
 
   <name>docker-jenkins-intg</name>
   <url>http://maven.apache.org</url>
