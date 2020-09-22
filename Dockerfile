@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/docker_jenkins_intg.jar docker_jenkins_intg.jar 
-ENTRYPOINT ['java', '-jar', '/docker_jenkins_intg.jar']
+ADD target/docker-jenkins-intg.jar docker-jenkins-intg.jar 
+ENTRYPOINT ['java', '-jar', '/docker-jenkins-intg.jar']
